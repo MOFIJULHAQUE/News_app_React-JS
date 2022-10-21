@@ -47,3 +47,56 @@
   100% { transform: rotate(360deg); }
 }
 
+
+
+
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+ .like-dislike-comment i {
+  font-size: 45px;
+} 
+ 
+
+ 
+.btn-container {
+  display: flex;
+  flex-direction: 'row';
+  align-items: center;
+  justify-content: space-evenly;
+  /* background-color: rgb(215, 15, 15); */
+  padding: 30px 50px;
+  border-radius: 12px;
+  justify-content: baseline;
+}
+ 
+.btn {
+  cursor: pointer;
+  box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+  border: none;
+  color:#fff;
+  font-size: 0.8rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap:4px;
+  background-color: #57b1b8;
+  border-radius: 4px;
+  padding: 6px 15px;
+  margin: 0 10px;
+}
+ 
+.like-active {
+  background-color: #15af34;
+}
+ 
+.dislike-active {
+  background-color: red;
+}
+.container{
+  width: 100px;
+  height:100px
+}
